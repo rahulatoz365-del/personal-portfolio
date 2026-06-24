@@ -99,7 +99,7 @@ export const projects = [
     title: "Discord Website Clone",
     des: "Recreated the Discord Official Website using HTML and CSS tried honing my CSS and designing skills...",
     img: "/p4.svg",
-    iconLists: ["/html.svg", "/css.svg", "/js.svg", "/cloud.svg", "/git.svg"],
+    iconLists: ["/html.svg", "/css.svg", "/js.svg", "/cloud.svg", "/github.svg"],
     link: "https://rahulatoz365-del.github.io/Discord-Clone/",
   },
 ];
@@ -107,14 +107,128 @@ export const projects = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "/github.svg",
+    link:"https://github.com/rahulatoz365-del"
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 100 100'><path fill='%23fff' d='M59.31 42.344 95.736 0h-8.633L55.475 36.766 30.213 0H1.075l38.202 55.597L1.075 100h8.633L43.11 61.174 69.788 100h29.137L59.307 42.344zM47.486 56.086l-3.87-5.536L12.817 6.498h13.26L50.93 42.05l3.87 5.536 32.307 46.21H73.85L47.486 56.089z'/></svg>",
+    link:"https://x.com/stack_overload"
   },
   {
     id: 3,
     img: "/link.svg",
+    link:"https://www.linkedin.com/in/rahulsinghrishu/"
+  },
+];
+
+export const dev = [
+  {
+    id:1,
+    title:"React.js",
+    img:"/re.svg"
+  },
+  {
+    id:2,
+    title:"Next.js",
+    img:"/next.svg"
+  },
+  {
+    id:3,
+    title:"Node.js",
+    img:"/node.svg"
+  },
+  {
+    id:4,
+    title:"TailwindCSS",
+    img:"/tail.svg"
+  },
+  {
+    id:5,
+    title:"Docker",
+    img:"/dock.svg"
+  },
+  {
+    id:6,
+    title:"Redux",
+    img:"/redux.svg"
+  },
+  {
+    id:7,
+    title:"Java",
+    img:"/java.svg"
+  },
+  {
+    id:8,
+    title:"Springboot",
+    img:"/sb.svg"
+  },
+  {
+    id:9,
+    title:"Nginx",
+    img:"/nginx.svg"
+  },
+  {
+    id:10,
+    title:"Git",
+    img:"/git.svg"
+  },
+  {
+    id:11,
+    title:"Github",
+    img:"/github.svg"
+  },
+];
+
+export const dataSci = [
+  {
+    id:1,
+    title:"Python",
+    img:"/py.svg"
+  },
+  {
+    id:2,
+    title:"Scikit Learn",
+    img:"/sk.svg"
+  },
+  {
+    id:3,
+    title:"Anaconda",
+    img:"/ana.svg"
+  },
+  {
+    id:4,
+    title:"Numpy",
+    img:"/np.svg"
+  },
+  {
+    id:5,
+    title:"Pandas",
+    img:"/p.svg"
+  },
+  {
+    id:6,
+    title:"TensorFlow",
+    img:"/tf.svg"
+  },
+  {
+    id:7,
+    title:"MySQL",
+    img:"/ms.svg"
+  },
+  {
+    id:8,
+    title:"PyTorch",
+    img:"/pt.svg"
+  },
+  {
+    id:9,
+    title:"Matplot Lib",
+    img:"/mp.svg"
+  },
+  {
+    id:10,
+    title:"Jupyter",
+    img:"/jy.svg"
   },
 ];

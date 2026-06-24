@@ -1,6 +1,8 @@
+import Footer from "@/components/Footer";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import Projects from "@/components/Project";
+import TechStack from "@/components/TechStack";
 import { FloatingNav } from "@/components/ui/floating-navbar";
 import { navItems } from "@/data/index";
 
@@ -11,7 +13,9 @@ export default function Home() {
         <FloatingNav navItems={navItems}/>
         <Hero/>
         <Grid/>
+        <TechStack/>
         <Projects/>
+        <Footer/>
       </div>
     </main>
   );
